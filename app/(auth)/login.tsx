@@ -45,7 +45,7 @@ export default function LoginScreen() {
           Alert.alert('Error', error);
           return;
         }
-        router.replace('/(tabs)');
+        router.replace('/(drawer)');
       } else {
         if (!formData.mobileNumber) {
           Alert.alert('Error', 'Please enter your mobile number');

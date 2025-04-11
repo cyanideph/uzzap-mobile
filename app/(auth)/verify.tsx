@@ -26,7 +26,7 @@ export default function VerifyScreen() {
       }
 
       await verifyPin(pin);
-      router.replace('/(tabs)');
+      router.replace('/(drawer)');
     } catch (error) {
       Alert.alert('Error', 'Invalid verification code');
     }
